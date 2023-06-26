@@ -18,7 +18,7 @@ const Form = () => {
         }
 
         e.preventDefault();
-
+        
         dispatch({
           type: "ADD_TODO",
           payload: {
